@@ -7,12 +7,16 @@ A browser extension to hide the Amazon cart sidebar for a cleaner browsing exper
 
 ## Installation
 1. Clone the repository:
-2. Open Chrome and navigate to `chrome://extensions/`.
-3. Enable **Developer Mode**.
-4. Click **Load unpacked** and select the project folder.
+2. Chrome:
+    Go to chrome://extensions/.
+    Enable "Developer mode."
+    Click "Load unpacked" and select your extension folder.
+3. Firefox:
+    Go to about:debugging#/runtime/this-firefox.
+    Click "Load Temporary Add-on" and select the manifest.json file.
 
 ## Contribution
-Contributions are welcome! Please follow the guidelines in `CONTRIBUTING.md`.
+Contributions are welcome! Please raise PR for improvmements.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
