@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Hide Amazon Cart Sidebar",
+  "version": "1.0",
+  "description": "Hides the cart sidebar on Amazon.",
+  "permissions": ["scripting"],
+  "host_permissions": ["https://www.amazon.*/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.amazon.*/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
